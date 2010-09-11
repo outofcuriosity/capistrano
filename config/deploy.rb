@@ -42,8 +42,8 @@ require 'rubygems'
 
 # aptitude
 require 'cap_recipes/tasks/aptitude'
-
-
+# apache
+require 'cap_recipes/tasks/apache'
 
 # Restart passenger on deploy
 namespace :deploy do
